@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             img: 'Imagenes/Minccino.png',
         },
     ]
+    
 
     arrayCartas.sort(() => 0.5 - Math.random())
 
@@ -81,9 +82,10 @@ document.addEventListener('DOMContentLoaded', () => {
         var cartas = document.querySelectorAll('img')
         const opcionUnoId = cartaEscogidaId[0]
         const opcionDosId = cartaEscogidaId[1]
-        if(cartaEscogidaId[0] === cartaEscogidaId[1]){
+        if(cartaEscogida[0] === cartaEscogida[1]){
             alert("encontraste un par!!!")
-            cartaEscogidaId[0].setAttribute('src', 'Imagenes/blank.jpg')
+            cartas[opcionUnoId].setAttribute('src', 'Imagenes/blank.png')
+            cartas[opcionDosId].setAttribute('src', 'Imagenes/blank.png')
             cartasGanadas.push(cartaEscogida)
         } else {
             cartas[opcionUnoId].setAttribute('src', 'Imagenes/Atrás.png')
