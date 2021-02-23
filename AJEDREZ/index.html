@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajedrez básico</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Fonts.css">
+</head>
+<body>
+    <div>
+        <script src="JS/index.js"></script>
+            <h1>Horse chess challenge</h1>
+            <h1>Reto del caballo de Ajedrez</h1>
+        </div>
+
+        <div id="scores">
+            <div id="level_center">
+                <div id="score_level" class="score">
+                    <p>Level</p>
+                    <p id="level">1</p>
+                </div>
+            </div>
+
+            <div class="score">
+                <p>Moves</p>
+                <p id="moves">63</p>
+            </div>
+
+            <div class="score">
+                <p>Time</p>
+                <p id="time"><span id="minutes">00</span>:<span id="Seconds">00</span></p>
+            </div>
+
+            <div id="score_lifes" class="score">
+                <p>Lifes</p>
+                <p id="lifes">1</p>
+            </div>
+
+            <div class="score">
+                <p>Options</p>
+                <div id="meter_bonus"></div>
+                <p id="global_options"><span id="options">0</span><span id="bonus"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="content_board">
+        <div id="board">
+            <div class="rows">
+                <div class="row">
+                    <div id="c07" onclick="" class="cell white"></div>
+                    <div id="c17" onclick="" class="cell black"></div>
+                    <div id="c27" onclick="" class="cell white"></div>
+                    <div id="c37" onclick="" class="cell black"></div>
+                    <div id="c47" onclick="" class="cell white"></div>
+                    <div id="c57" onclick="" class="cell black"></div>
+                    <div id="c67" onclick="" class="cell white"></div>
+                    <div id="c77" onclick="" class="cell black"></div>
+                </div>
+                <div class="row">
+                    <div id="c06" onclick="" class="cell black"></div>
+                    <div id="c16" onclick="" class="cell white"></div>
+                    <div id="c26" onclick="" class="cell black"></div>
+                    <div id="c36" onclick="" class="cell white"></div>
+                    <div id="c46" onclick="" class="cell black"></div>
+                    <div id="c56" onclick="" class="cell white"></div>
+                    <div id="c66" onclick="" class="cell black"></div>
+                    <div id="c76" onclick="" class="cell white"></div>
+                </div>
+                <div class="row">
+                    <div id="c05" onclick="" class="cell white"></div>
+                    <div id="c15" onclick="" class="cell black"></div>
+                    <div id="c25" onclick="" class="cell white"></div>
+                    <div id="c35" onclick="" class="cell black"></div>
+                    <div id="c45" onclick="" class="cell white"></div>
+                    <div id="c55" onclick="" class="cell black"></div>
+                    <div id="c65" onclick="" class="cell white"></div>
+                    <div id="c75" onclick="" class="cell black"></div>
+                </div>
+                <div class="row">
+                    <div id="c04" onclick="" class="cell black"></div>
+                    <div id="c14" onclick="" class="cell white"></div>
+                    <div id="c24" onclick="" class="cell black"></div>
+                    <div id="c34" onclick="" class="cell white"></div>
+                    <div id="c44" onclick="" class="cell black"></div>
+                    <div id="c54" onclick="" class="cell white"></div>
+                    <div id="c64" onclick="" class="cell black"></div>
+                    <div id="c74" onclick="" class="cell white"></div>
+                </div>
+                <div class="row">
+                    <div id="c03" onclick="" class="cell white"></div>
+                    <div id="c13" onclick="" class="cell black"></div>
+                    <div id="c23" onclick="" class="cell white"></div>
+                    <div id="c33" onclick="" class="cell black"></div>
+                    <div id="c43" onclick="" class="cell white"></div>
+                    <div id="c53" onclick="" class="cell black"></div>
+                    <div id="c63" onclick="" class="cell white"></div>
+                    <div id="c73" onclick="" class="cell black"></div>
+                </div>
+                <div class="row">
+                    <div id="c02" onclick="" class="cell black"></div>
+                    <div id="c12" onclick="" class="cell white"></div>
+                    <div id="c22" onclick="" class="cell black"></div>
+                    <div id="c32" onclick="" class="cell white"></div>
+                    <div id="c42" onclick="" class="cell black"></div>
+                    <div id="c52" onclick="" class="cell white"></div>
+                    <div id="c62" onclick="" class="cell black"></div>
+                    <div id="c72" onclick="" class="cell white"></div>
+                </div>
+                <div class="row">
+                    <div id="c01" onclick="" class="cell white"></div>
+                    <div id="c11" onclick="" class="cell black"></div>
+                    <div id="c21" onclick="" class="cell white"></div>
+                    <div id="c31" onclick="" class="cell black"></div>
+                    <div id="c41" onclick="" class="cell white"></div>
+                    <div id="c51" onclick="" class="cell black"></div>
+                    <div id="c61" onclick="" class="cell white"></div>
+                    <div id="c71" onclick="" class="cell black"></div>
+                </div>
+                <div class="row">
+                    <div id="c00" onclick="" class="cell black"></div>
+                    <div id="c10" onclick="" class="cell white"></div>
+                    <div id="c20" onclick="" class="cell black"></div>
+                    <div id="c30" onclick="" class="cell white"></div>
+                    <div id="c40" onclick="" class="cell black"></div>
+                    <div id="c50" onclick="" class="cell white"></div>
+                    <div id="c60" onclick="" class="cell black"></div>
+                    <div id="c70" onclick="" class="cell white"></div>
+                </div>
+            </div>
+
+            <div id="message">
+                <p id="notification"></p>
+                <p id="data_message"></p>
+                <div id="share_panel" class="share">
+                    <p id="button" onclick=""></p>
+                    <div id="tweet_game">
+                        <div id="tweet_center">
+                            <div id="tweet_gameover"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
