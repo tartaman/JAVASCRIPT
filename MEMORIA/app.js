@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     var cartaEscogida = []
     var cartaEscogidaId = []
     var cartasGanadas = []
-    const displayResultados = document.querySelector('#result')
+    const displayResultados = document.getElementById('result')
 
     /*tablero*/
     function crearTablero() {
@@ -97,6 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
         displayResultados.textContent = cartasGanadas.length
         if (cartasGanadas.length === arrayCartas.length/2){
             displayResultados.textContent = "web0s, te mamaste, las encontraste"
+            alert("Acabas de ganar, presiona F5 para intentar de nuevo")
         }
     }
 
@@ -114,7 +115,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     } 
 })
-
-    
-
-
