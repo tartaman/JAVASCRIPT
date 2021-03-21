@@ -46,3 +46,37 @@ function cronometro() {
 }
 
 let idTiempo = setInterval(cronometro, 1000)
+        switch (new Date().getDay()) {
+        case 1:
+        day = "Monday" 
+        alert("Hoy es lunes")
+        break;
+
+        case 2:
+            day = "Tuesday"
+            alert("Hoy es martes")
+            break;
+            
+        case 3:
+            day = "Wednesday"
+            alert("Hoy es miercoles")
+            break;
+
+        case 4:
+            day = "Thursday"
+            alert("Hoy es jueves")
+            break;
+
+        case 5:
+            day = "Friday" 
+            alert("Hoy es viernes")
+            break;
+        case 6:
+            day = "Saturday"
+            alert("Hoy es sabado")
+            break;
+        case 7:
+            day = "Sunday"
+            alert("Hoy es domingo")
+            break;
+    } 

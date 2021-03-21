@@ -1,0 +1,21 @@
+.Tabla {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 140px;
+}
+.Tabla div {
+    height: 20px;
+    width: 20px;
+}
+
+.jugador-uno{
+    background: red;
+    border-radius: 10px;
+}
+
+.jugador-dos{
+    background: blue;
+    border-radius: 10px;
+}
