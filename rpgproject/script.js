@@ -15,7 +15,7 @@ document.getElementById("button").addEventListener("mouseup", function ufas() {
     if (queVasAHacer == 1) {
         alert(`La bandida corre a toda velocidad y con gran habilidad logra salir en un corto periodo de tiempo pero a cambio de tirar un par de monedas,
         ninguna perdida grave en realidad (tercermundo++)`)
-        var BCoBR = Math.floor(Math.random() * 2)
+        var BCoBR = Math.floor(Math.random() * 2) + 1
     } else if (queVasAHacer == 2) {
         alert(`La bandida toma la lata y cuando escucha que los pasos llegan se lanza al ataque. No es mas que una enorme rata, se tranquiliza y se va`)
         var BCoBR = 1
