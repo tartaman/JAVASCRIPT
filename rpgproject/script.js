@@ -62,36 +62,42 @@ document.getElementById("button").addEventListener("mouseup", function ufas() {
             alert("Oh, esta bien, hasta mañana Glad.")
             alert("Hasta mañana baboso.")
         }
-        alert("Capitulo 2 La Bandida roba riñones: Eso va a dejar marca ")
-        alert(`“Solía pensar que las cosas no podían salir peor, nunca estuve más equivocada” La bandida roba riñones se encontraba en medio de una batalla campal contra la mafia “Los medichini”, una familia que reinaba bajo las aguas, ella por error se había metido en un asunto del cual no sabría si podría escapar.
+        alert("Capitulo 2 La Bandida roba riñones: Eso va a dejar marca \n \n \tcheckpoint")
+        function capitulo2() {
+            alert(`“Solía pensar que las cosas no podían salir peor, nunca estuve más equivocada” La bandida roba riñones se encontraba en medio de una batalla campal contra la mafia “Los medichini”, una familia que reinaba bajo las aguas, ella por error se había metido en un asunto del cual no sabría si podría escapar.
         En un lado se encontraban 6 hombres armados hasta el alma y mucha munición, del lado de la bandida: ella y 2 de sus compinches con balas reducidas y algunas armas que quizá y les permitirían ganar.`)
-        alert(`Las balas iban y venían, ellos se guardaban y disparaban con estrategia, tumbaron a 2 y ellos seguían completos, la bandida sabía que tenia que hacer, le indico a sus compañeros que distrajeran a los que quedaban y se escabullo por un lateral.`)
-        alert(`Ella logro llegar a un buen punto, pero tenía una duda, que hacer, podía rodar hacia el cuerpo de 1 de los mafiosos, tomar una granada y esperar a darle a todos o disparar hasta dar de baja a todos`)
-        var queVasAHacer = prompt(`¿Qué debe hacer?\n1.Rodar hacia la granada \n 2.dispararle a 2`)
-        if (queVasAHacer == 1) {
-            alert(`activas y la lanzas, todos los mafiosos terminan muertos, huyes del lugar con tus compañeros (SUPREME VICTORY *cuak*)`)
-            alert(`Al huir se dirigen a su base, un pequeño almacen ubicado en las afueras de la ciudad, es ahí donde guardan todo, descansan, comen, ahí viven. La bandida salió de su hogar el año anterior cuando los problemas empezaron, ahora no podía cuidar a sus hermanos era demasiado peligroso, por lo cual solo les mandaba dinero cada cierto tiempo, lo suficiente para que pudieran vivir bien.`)
-            alert("Los extrañaba, pero no podía regresas y arriesgarlos no otra vez, ellos aun no sabían que era o quien era ella, y eso le bastaba a ella para no regresar, preferiría que no se enteraran nunca.")
-            alert("  -Ok, esta vez nos emboscaron y ganamos, pero necesitamos más armas y tal vez un miembro más, solo para cuidar la espalda.")
-            alert("-Glad, ¡como planeas ganar esto?, estamos contra algo que tiene demasiado poder, es demasiado incluso para 4 personas.")
-            alert(`-Algo se nos ocurrirá o a mí se me ocurrirá.`)
-        } else if (queVasAHacer == 2) {
-            alert(`revelas tu posición por lo cual te resguardas atrás de una pared que estaba detrás, 1 de tus compañeros es abatido y el otro termina de rematando a los mafiosos que quedaban,Tú, la bandida junto con tu único compañero sobreviviente carga a tu otro compañero que ya ha muerto y huyen de ahí.`)
-            alert(`Corriendo por la ciudad, nadie se dio cuenta de la presencia de ellos 2, se saben todos los caminos para evitar ser notados, en el día y en la noche. Llegando a su base que es un pequeño almacen a las afueras de la ciudad, dejan el cuerpo de su compañero y amigo en uno de los sofas.`)
-            alert(' -No podemos seguir así -Menciona su compañero')
-            alert('-Claro que si, solo necesitamos mas armas, una buena estrategia y mas personas, con eso lograremos vencerlos y además nos vengaremos')
-            alert('  -¡No!, yo ya no participare en esto, me entregare, nos entregare a la policía, nos condenaran e iremos a la cárcel o nos condene a muerte es baiscamente lo mismo a enfrentarse a esta mafia en realidad.')
-            alert('   -¡No puedes hacer eso!')
-            alert("   -¡Claro que puedo!")
-            alert("-Entonces, si es claro que puedes, solo queda una opción.")
-            prompt(`Elige que hacer:\n1-Dispararle
+            alert(`Las balas iban y venían, ellos se guardaban y disparaban con estrategia, tumbaron a 2 y ellos seguían completos, la bandida sabía que tenia que hacer, le indico a sus compañeros que distrajeran a los que quedaban y se escabullo por un lateral.`)
+            alert(`Ella logro llegar a un buen punto, pero tenía una duda, que hacer, podía rodar hacia el cuerpo de 1 de los mafiosos, tomar una granada y esperar a darle a todos o disparar hasta dar de baja a todos`)
+            var queVasAHacer = prompt(`¿Qué debe hacer?\n1.Rodar hacia la granada \n 2.dispararle a 2`)
+            if (queVasAHacer == 1) {
+                alert(`activas y la lanzas, todos los mafiosos terminan muertos, huyes del lugar con tus compañeros (SUPREME VICTORY *cuak*)`)
+                alert(`Al huir se dirigen a su base, un pequeño almacen ubicado en las afueras de la ciudad, es ahí donde guardan todo, descansan, comen, ahí viven. La bandida salió de su hogar el año anterior cuando los problemas empezaron, ahora no podía cuidar a sus hermanos era demasiado peligroso, por lo cual solo les mandaba dinero cada cierto tiempo, lo suficiente para que pudieran vivir bien.`)
+                alert("Los extrañaba, pero no podía regresas y arriesgarlos no otra vez, ellos aun no sabían que era o quien era ella, y eso le bastaba a ella para no regresar, preferiría que no se enteraran nunca.")
+                alert("  -Ok, esta vez nos emboscaron y ganamos, pero necesitamos más armas y tal vez un miembro más, solo para cuidar la espalda.")
+                alert("-Glad, ¡como planeas ganar esto?, estamos contra algo que tiene demasiado poder, es demasiado incluso para 4 personas.")
+                alert(`-Algo se nos ocurrirá o a mí se me ocurrirá.`)
+            } else if (queVasAHacer == 2) {
+                alert(`revelas tu posición por lo cual te resguardas atrás de una pared que estaba detrás, 1 de tus compañeros es abatido y el otro termina de rematando a los mafiosos que quedaban,Tú, la bandida junto con tu único compañero sobreviviente carga a tu otro compañero que ya ha muerto y huyen de ahí.`)
+                alert(`Corriendo por la ciudad, nadie se dio cuenta de la presencia de ellos 2, se saben todos los caminos para evitar ser notados, en el día y en la noche. Llegando a su base que es un pequeño almacen a las afueras de la ciudad, dejan el cuerpo de su compañero y amigo en uno de los sofas.`)
+                alert(' -No podemos seguir así -Menciona su compañero')
+                alert('-Claro que si, solo necesitamos mas armas, una buena estrategia y mas personas, con eso lograremos vencerlos y además nos vengaremos')
+                alert('  -¡No!, yo ya no participare en esto, me entregare, nos entregare a la policía, nos condenaran e iremos a la cárcel o nos condene a muerte es baiscamente lo mismo a enfrentarse a esta mafia en realidad.')
+                alert('   -¡No puedes hacer eso!')
+                alert("   -¡Claro que puedo!")
+                alert("-Entonces, si es claro que puedes, solo queda una opción.")
+                prompt(`Elige que hacer:\n1-Dispararle
             \n2- Dispararle
             \n3- Dispararle
             \n4- Dispararle
             \n5- Dispararle`)
-            alert("La bandida le dispara en la cabeza a su compañero, a sangre fría y sin remordimiento, su compañero cae al piso dejando un charco de sangre que marcara el suelo como un lugar donde alguna vez hubo vida.")
-            alert("-Nadie va a ir a la cárcel, le voy a ganar a esa mafia. Sola o acompañada, lo hare y nadie me va a detener")
+                alert("La bandida le dispara en la cabeza a su compañero, a sangre fría y sin remordimiento, su compañero cae al piso dejando un charco de sangre que marcara el suelo como un lugar donde alguna vez hubo vida.")
+                alert("-Nadie va a ir a la cárcel, le voy a ganar a esa mafia. Sola o acompañada, lo hare y nadie me va a detener")
+            } else {
+                alert("wei porfa")
+                capitulo2()
+            }
         }
+        capitulo2()
         //Inicia Roba corazones
     } else if (BCoBR == 2) {
         alert("Capitulo 1:La bandida roba corazones: Como por arte de magia")
