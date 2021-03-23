@@ -148,9 +148,9 @@ document.getElementById("button").addEventListener("mouseup", function ufas() {
                     alert(`Alevitia logra atrapar una bola explosiva que había lanzado el destroker y concentrando su energía aumento el poder de la bomba y con una impecable puntería se lo devolvió al destroker, este se dio cuenta muy tarde y termino explotando, el peligro había pasado, pero a cambio el destroker había muerto el cual des imbuido era solo una persona normal.`)
                 } else if (queVasAHacer == 2) {
                     alert("Alevitia enfoca un escombro que se encontraba al lado del destroker y con una gran fuerza energética se lo lanza, des imbuyéndolo y noqueándolo, es así como el segundo destroker queda fuera de juego.")
+                } else {
+                    alert('nomameswey')
                 }
-            } else {
-                alert('nomameswey')
             }
             alert(`Stolen se queda a enfrentar al tipo que se había quedado con ella, sin preguntas directo a la acción.
             Stolen se oculta en las sombras, un nuevo truco que aprendió, el tipo gira en su propio eje preparado para contraatacar, pero es Stolen la que ataca justo cuando el tipo le da la espalda y con una explosión de energía este salió volando hacia la pared, Stolen no era una chica de pocos trucos, reuniendo fuerzas logro estancar el cuerpo del tipo con telequinesis, ya no se podía mover, no podría hacer nada.`)
@@ -160,8 +160,8 @@ document.getElementById("button").addEventListener("mouseup", function ufas() {
             alert(`El tipo con un poder negro logro controlar telequinéticamente los escombros y los lanzo hacia Stolen, ella le copio el truco al chico y reuniendo toda su energía y dejándola salir abruptamente logro hacer una explosión mucho mas fuerte que pulverizo los escombros y lazo al tipo tan fuerte que no solo choco con la pared si no que la atravesó, Stolen rápidamente salió para no perderle el paso.`)
             alert(`-Igual tengo mis trucos y creo que son mejores que los tuyos.
             El chico sin decir nada se empezó a convertir en una especie de humo denso y negro, que cubrió todo su cuerpo y simplemente se esfumo.`)
-        }
-        Capitulo2()
+        } Capitulo2()
+
 
     } else {
         alert("wey sabes leer?")
