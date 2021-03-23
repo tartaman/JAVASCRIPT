@@ -119,6 +119,47 @@ document.getElementById("button").addEventListener("mouseup", function ufas() {
             alert("we neta no hagas eso, ahora vas a tener que repetir todo o sea no ma&#$")
             ufas()
         }
+        alert('Capitulo 2 La Bandida roba corazones: El arte del latido')
+        function Capitulo2() {
+            alert('La bandida se encontraba leyendo el libro que lo había iniciado todo, bueno no exactamente el libro sino ella, pero prefería saltar ese detalle. ')
+            alert('  -Como pretendes que un libro del cual ni siquiera sabes su nombre nos ayude a resolver esto?')
+            alert(' -Este libro me ha enseñado todo lo que se sobre mis habilidades y esas cosas monstruosas, debe tener una solución para esto.')
+            alert("-Bien, como quieras creer")
+            alert('Stolen Heart seguía ojeando cada página que ya había revisado y las que aun no, pero no había respuesta, hasta que llego a un cierto capitulo del libro, del cual solamente veía el título: El destino. Se le hizo interesante que sea el único capitulo que no podía ver, creía que era algún tipo de hechizo, solo tenia que buscar como romperlo y quizás pueda traer el orden de nuevo.')
+            alert(`Era difícil de descifrar, era un libro que mínimo llevaba 200 años de haberse escrito, aun que dudaba al tener algunas paginas más viejas que otras, pero incluso a veces se encontraban fechas más allá de lo que esperaba, ya no se hablaba de cientos si no de miles de años, le extrañaba pues su idioma no había existido en esos tiempos, ¿cómo podría estar esos textos en español?, bueno ella suponía que era la magia, era la única respuesta.
+            Este libro contenía información valiosa sobre los poderes que los destrokers tenían y los que ella tenía claro, información la cual ya había memorizado, pero no la suficiente pues era demasiada realmente el libro era su mejor arma, ni la magia ni otra cosa más que ese libro.`)
+            alert(`Un ruido venia del exterior, algo sacudía la casa y una explosión se hizo presente en la puerta, haciendo que esta estallara en mil pedazos. Stolen agarro el y estaba dispuesta a luchar.`)
+            alert(`-Huye con en libro, sea lo que sea no lo pierdas.`)
+            alert('Stolen no estaba muy convencida de dejar a sus compañeros, pero igual sabía que si alguien tomaba el libro esto se podía poner feo.')
+            var queVasAHacer = prompt('¿Qué debería hacer?\n 1.Tomar el libro y huir\n 2.Tomar el libro y luchar') 
+            if (queVasAHacer == 1){
+                alert(`Stolen toma el libro y usando un truco nuevo que aprendió se fusiona con ella misma imbuida con el poder de la piedra corazón que le brindó todos sus poderes, se convierte en una masa de energía, brillante y etérea que se ha fusionado incluso con el libro, esto le permite salir a una gran velocidad de la casa sin ser atrapada, se mueve entre las calles dejando una estela mística por donde pasa hasta alejarse tanto como para considerarlo seguro, en medio del bosque es donde crea un pequeño refugio, la naturaleza esta de su lado, ese es uno de los secretos de su magia.`)
+                alert('Del suelo se crea una pequeña ventanilla que se camufla perfectamente con el entorno, la abre y se dejan ver unas escaleras, empieza a bajar, cierra la ventanilla y sigue bajando, con un pequeño chasquido crea una bola de energía que le ilumina el camino, al final de las escaleras se encuentra una base subterránea, difícil de encontrar y perfecta para entender lo que estaba pasando.')
+                alert('El libro sale disparado de las manos de Stolen, y se pone exactamente en el centro de la habitación empezando a levitar y se abre justamente en el capítulo que había visto hace, letras empiezan a aparecer de ninguna parte, se impregnan en el libro, ese está escribiendo algo.')
+
+            } else if (queVasAHacer == 2){
+                alert(`Stolen toma el libro y lo guarda en su chaqueta previamente encantada para guardar cosas y se dispone a luchar. Son 2 destrokers pero vienen acompañados de un tipo, alto y que impone temor, de los cuales te encuentras en la calle y dan miedo. Los destrokers atacan a sus compañeros y el chico a Stolen. `)
+                alert(`La compañera más joven de Stolen, Mica le toca un destroker con telequinesis, uno difícil. EL destroker lanza escombros a diestra y siniestra, por suerte Mica a aprendido a crear barreras de energía, es así como usa las barreras a su favor. Empieza a rodear el destroker sin dejar de crear la barrera, es así como el destroker queda encerrado en una cúpula de la cual no puede salir, Mica igual aprendió un increíble truco con barreras: sobrecarga. Es así como concentra toda su energía para sobrecargar el escudo y este explota dejando al destroker desmayado y des imbuido, ahora solo es una persona normal.`)
+                var queVasAHacer = prompt("Alevitia, la otra compañera de Stolen le toco un destroker al cual le gustan las explosiones, es así como ella con grandes saltos esquiva las explosiones, necesita un plan para lograr vencerlo, pero ¿Cuál?\n1.Fuego con Fuego, explotar cosas\n2.Telequinesis plan")
+                if (queVasAHacer == 1){
+                    alert(`Alevitia logra atrapar una bola explosiva que había lanzado el destroker y concentrando su energía aumento el poder de la bomba y con una impecable puntería se lo devolvió al destroker, este se dio cuenta muy tarde y termino explotando, el peligro había pasado, pero a cambio el destroker había muerto el cual des imbuido era solo una persona normal.`)
+                } else if (queVasAHacer == 2){
+                    alert("Alevitia enfoca un escombro que se encontraba al lado del destroker y con una gran fuerza energética se lo lanza, des imbuyéndolo y noqueándolo, es así como el segundo destroker queda fuera de juego.")
+                }
+            } else {
+                alert('nomameswey')
+            }
+            alert(`Stolen se queda a enfrentar al tipo que se había quedado con ella, sin preguntas directo a la acción.
+            Stolen se oculta en las sombras, un nuevo truco que aprendió, el tipo gira en su propio eje preparado para contraatacar, pero es Stolen la que ataca justo cuando el tipo le da la espalda y con una explosión de energía este salió volando hacia la pared, Stolen no era una chica de pocos trucos, reuniendo fuerzas logro estancar el cuerpo del tipo con telequinesis, ya no se podía mover, no podría hacer nada.`)
+            alert(`- ¿Qué es lo que buscas?`)
+            alert(`- ¿Enserio crees que te lo diría?`)
+            alert(`Es así como una explosión de energía fue emitida del cuerpo del chico, una energía diferente a la de los destrokers y a la de Stolen o cualquiera de sus compañeras. Stolen salió disparada pero puro recuperar la postura rápidamente.`)
+            alert(`El tipo con un poder negro logro controlar telequinéticamente los escombros y los lanzo hacia Stolen, ella le copio el truco al chico y reuniendo toda su energía y dejándola salir abruptamente logro hacer una explosión mucho mas fuerte que pulverizo los escombros y lazo al tipo tan fuerte que no solo choco con la pared si no que la atravesó, Stolen rápidamente salió para no perderle el paso.`)
+            alert(`-Igual tengo mis trucos y creo que son mejores que los tuyos.
+            El chico sin decir nada se empezó a convertir en una especie de humo denso y negro, que cubrió todo su cuerpo y simplemente se esfumo.`)
+        }
+        Capitulo2()
+
     } else {
         alert("wey sabes leer?")
         ufas()
