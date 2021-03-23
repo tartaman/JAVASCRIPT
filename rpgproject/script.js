@@ -100,25 +100,28 @@ document.getElementById("button").addEventListener("mouseup", function ufas() {
         capitulo2()
         //Inicia Roba corazones
     } else if (BCoBR == 2) {
-        alert("Capitulo 1:La bandida roba corazones: Como por arte de magia")
-        alert("Stolen Heart como la habían nombrado los pobladores o como antiguamente se le conocía como La Bandida corría por las calles persiguiendo a 2 destrokers, ella no sabia muy bien aun lo que eran, lo que entendía es que era gente normal pero que había recibido algunas superhabilidades después de infundirse con la energía entropía, de la entropía o para los amigos: del caos.")
-        alert("Los destrokers iban corriendo por las paredes, haciendo saltos de aquí a allá, uno canalizaba la energía del otro, creaban pequeñas explosiones con cada salto. Stolen Heart les pisaba los talones, ella no estaba lejos de ser tan poderosa como ellos, de hecho, lo era y más.")
-        var queVasAHacer = prompt("Tenia que alcanzar a los destrokers, por lo cual tenia que hacer una jugada, ¿qué debería hacer?\n1.Reunir energía en sus pies para llegar a ellos con un megasalto y enfrentarlos\n2.Reunir energía en cada uno de sus músculos y usarla para correr el doble de rápido que ellos y con ello enfrentarlos.")
-        if (queVasAHacer == 1) {
-            alert("Al realizar el mega salto cae demasiado enfrente y los destrokers logran esquivarla cambiando su ruta de paredes a techos")
-            alert("Stolen Heart se dispuso a reajustar su ruta, primero intento con todas sus fuerzas adelantar a los destrokers, una vez alcanzado una mínima ventaja desato un ataque creando una barrera. Los dos destrokers chocharon con el muro, así es como rápidamente Stolen Heart salto sobre uno de los techos, dándole un golpe a uno de los destrokers, desestabilizándolo y así dejando escapar la energía del caos que lo controlaba y así sin el lazo el cual el otro destroker necesitaba igual dejo escapar la energía del caos.")
-            alert("Al final resultaron ser 2 hermanos gemelos que habían sido infectados al mismo tiempo y en el mismo lugar, era eso lo que creaba el lazo tan necesario para la existencia de los 2. Stolen Heart se aseguro de que los hermanos llegaran bien a sus casas y trato de arreglar el desastre que se había causado. Lo hacia sintiendo que le debía algo a todo el pueblo y en realidad no se equivocaba.")
-            alert(`Una vez terminado todo regreso a su casa. Sus hermanos seguían en la escuela, por lo que se acostó a descansar. Aprovecho para meditar sobre todo lo que estaba pasando y pensar en una solución:
+        function Capitulo1() {
+            alert("Capitulo 1:La bandida roba corazones: Como por arte de magia")
+            alert("Stolen Heart como la habían nombrado los pobladores o como antiguamente se le conocía como La Bandida corría por las calles persiguiendo a 2 destrokers, ella no sabia muy bien aun lo que eran, lo que entendía es que era gente normal pero que había recibido algunas superhabilidades después de infundirse con la energía entropía, de la entropía o para los amigos: del caos.")
+            alert("Los destrokers iban corriendo por las paredes, haciendo saltos de aquí a allá, uno canalizaba la energía del otro, creaban pequeñas explosiones con cada salto. Stolen Heart les pisaba los talones, ella no estaba lejos de ser tan poderosa como ellos, de hecho, lo era y más.")
+            var queVasAHacer = prompt("Tenia que alcanzar a los destrokers, por lo cual tenia que hacer una jugada, ¿qué debería hacer?\n1.Reunir energía en sus pies para llegar a ellos con un megasalto y enfrentarlos\n2.Reunir energía en cada uno de sus músculos y usarla para correr el doble de rápido que ellos y con ello enfrentarlos.")
+            if (queVasAHacer == 1) {
+                alert("Al realizar el mega salto cae demasiado enfrente y los destrokers logran esquivarla cambiando su ruta de paredes a techos")
+                alert("Stolen Heart se dispuso a reajustar su ruta, primero intento con todas sus fuerzas adelantar a los destrokers, una vez alcanzado una mínima ventaja desato un ataque creando una barrera. Los dos destrokers chocharon con el muro, así es como rápidamente Stolen Heart salto sobre uno de los techos, dándole un golpe a uno de los destrokers, desestabilizándolo y así dejando escapar la energía del caos que lo controlaba y así sin el lazo el cual el otro destroker necesitaba igual dejo escapar la energía del caos.")
+                alert("Al final resultaron ser 2 hermanos gemelos que habían sido infectados al mismo tiempo y en el mismo lugar, era eso lo que creaba el lazo tan necesario para la existencia de los 2. Stolen Heart se aseguro de que los hermanos llegaran bien a sus casas y trato de arreglar el desastre que se había causado. Lo hacia sintiendo que le debía algo a todo el pueblo y en realidad no se equivocaba.")
+                alert(`Una vez terminado todo regreso a su casa. Sus hermanos seguían en la escuela, por lo que se acostó a descansar. Aprovecho para meditar sobre todo lo que estaba pasando y pensar en una solución:
             “Cómo sellare toda esta magia otra vez, la estúpida piedrita mágica ya no existe, como se supone que encierre algo si la cerradura ya no existe”`)
-        } else if (queVasAHacer == 2) {
-            alert("Stolen Heart logra alcanzar a 1 de los destrokers y lo hace caer, destruyendo el lazo entre los 2 y dejando escapar la energía del caos que los controlaba, cayendo al suelo los 2")
-            alert("Los 2 destrokers eran hermanos gemelos, infectados por la energía oscura al mismo tiempo y en el mismo lugar, los 2 juntos, es por eso el lazo que tenían el uno del otro. Stolen Heart se aseguro de llevar a los 2 hermanos a sus casas y luego de tratar de arreglar el desastre que se hizo. Hacia todo esto por la gente, porque sentía que se los debía, y bueno no es que se equivocara.")
-            alert(`Una vez terminado con todo regreso a su casa, sus hermanos seguían en la escuela, así que se dispuso a descansar, aprovecho para meditar sobre todo lo que estaba pasando y pensar en una solución:
+            } else if (queVasAHacer == 2) {
+                alert("Stolen Heart logra alcanzar a 1 de los destrokers y lo hace caer, destruyendo el lazo entre los 2 y dejando escapar la energía del caos que los controlaba, cayendo al suelo los 2")
+                alert("Los 2 destrokers eran hermanos gemelos, infectados por la energía oscura al mismo tiempo y en el mismo lugar, los 2 juntos, es por eso el lazo que tenían el uno del otro. Stolen Heart se aseguro de llevar a los 2 hermanos a sus casas y luego de tratar de arreglar el desastre que se hizo. Hacia todo esto por la gente, porque sentía que se los debía, y bueno no es que se equivocara.")
+                alert(`Una vez terminado con todo regreso a su casa, sus hermanos seguían en la escuela, así que se dispuso a descansar, aprovecho para meditar sobre todo lo que estaba pasando y pensar en una solución:
             “Cómo sellare toda esta magia otra vez, la estúpida piedrita mágica ya no existe, como se supone que encierre algo si la cerradura ya no existe”`)
-        } else {
-            alert("we neta no hagas eso, ahora vas a tener que repetir todo o sea no ma&#$")
-            ufas()
+            } else {
+                alert("we neta no hagas eso, ahora vas a tener que repetir todo o sea no ma&#$")
+                Capitulo1()
+            }
         }
+        Capitulo1()
         alert('Capitulo 2 La Bandida roba corazones: El arte del latido')
         function Capitulo2() {
             alert('La bandida se encontraba leyendo el libro que lo había iniciado todo, bueno no exactamente el libro sino ella, pero prefería saltar ese detalle. ')
@@ -131,19 +134,19 @@ document.getElementById("button").addEventListener("mouseup", function ufas() {
             alert(`Un ruido venia del exterior, algo sacudía la casa y una explosión se hizo presente en la puerta, haciendo que esta estallara en mil pedazos. Stolen agarro el y estaba dispuesta a luchar.`)
             alert(`-Huye con en libro, sea lo que sea no lo pierdas.`)
             alert('Stolen no estaba muy convencida de dejar a sus compañeros, pero igual sabía que si alguien tomaba el libro esto se podía poner feo.')
-            var queVasAHacer = prompt('¿Qué debería hacer?\n 1.Tomar el libro y huir\n 2.Tomar el libro y luchar') 
-            if (queVasAHacer == 1){
+            var queVasAHacer = prompt('¿Qué debería hacer?\n 1.Tomar el libro y huir\n 2.Tomar el libro y luchar')
+            if (queVasAHacer == 1) {
                 alert(`Stolen toma el libro y usando un truco nuevo que aprendió se fusiona con ella misma imbuida con el poder de la piedra corazón que le brindó todos sus poderes, se convierte en una masa de energía, brillante y etérea que se ha fusionado incluso con el libro, esto le permite salir a una gran velocidad de la casa sin ser atrapada, se mueve entre las calles dejando una estela mística por donde pasa hasta alejarse tanto como para considerarlo seguro, en medio del bosque es donde crea un pequeño refugio, la naturaleza esta de su lado, ese es uno de los secretos de su magia.`)
                 alert('Del suelo se crea una pequeña ventanilla que se camufla perfectamente con el entorno, la abre y se dejan ver unas escaleras, empieza a bajar, cierra la ventanilla y sigue bajando, con un pequeño chasquido crea una bola de energía que le ilumina el camino, al final de las escaleras se encuentra una base subterránea, difícil de encontrar y perfecta para entender lo que estaba pasando.')
                 alert('El libro sale disparado de las manos de Stolen, y se pone exactamente en el centro de la habitación empezando a levitar y se abre justamente en el capítulo que había visto hace, letras empiezan a aparecer de ninguna parte, se impregnan en el libro, ese está escribiendo algo.')
 
-            } else if (queVasAHacer == 2){
+            } else if (queVasAHacer == 2) {
                 alert(`Stolen toma el libro y lo guarda en su chaqueta previamente encantada para guardar cosas y se dispone a luchar. Son 2 destrokers pero vienen acompañados de un tipo, alto y que impone temor, de los cuales te encuentras en la calle y dan miedo. Los destrokers atacan a sus compañeros y el chico a Stolen. `)
                 alert(`La compañera más joven de Stolen, Mica le toca un destroker con telequinesis, uno difícil. EL destroker lanza escombros a diestra y siniestra, por suerte Mica a aprendido a crear barreras de energía, es así como usa las barreras a su favor. Empieza a rodear el destroker sin dejar de crear la barrera, es así como el destroker queda encerrado en una cúpula de la cual no puede salir, Mica igual aprendió un increíble truco con barreras: sobrecarga. Es así como concentra toda su energía para sobrecargar el escudo y este explota dejando al destroker desmayado y des imbuido, ahora solo es una persona normal.`)
                 var queVasAHacer = prompt("Alevitia, la otra compañera de Stolen le toco un destroker al cual le gustan las explosiones, es así como ella con grandes saltos esquiva las explosiones, necesita un plan para lograr vencerlo, pero ¿Cuál?\n1.Fuego con Fuego, explotar cosas\n2.Telequinesis plan")
-                if (queVasAHacer == 1){
+                if (queVasAHacer == 1) {
                     alert(`Alevitia logra atrapar una bola explosiva que había lanzado el destroker y concentrando su energía aumento el poder de la bomba y con una impecable puntería se lo devolvió al destroker, este se dio cuenta muy tarde y termino explotando, el peligro había pasado, pero a cambio el destroker había muerto el cual des imbuido era solo una persona normal.`)
-                } else if (queVasAHacer == 2){
+                } else if (queVasAHacer == 2) {
                     alert("Alevitia enfoca un escombro que se encontraba al lado del destroker y con una gran fuerza energética se lo lanza, des imbuyéndolo y noqueándolo, es así como el segundo destroker queda fuera de juego.")
                 }
             } else {
